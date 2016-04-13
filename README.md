@@ -7,14 +7,17 @@ We took existing codes from Daniel Erickson and Daniel Schiffman that we modifie
 This projet took part of the Milano Design Week Fuorisalone on 2016 at the "When object dreams" exhibition made by [ECAL - Ecole Cantonale d'Art de Lausanne](http://ecal.ch/fr/100/homepage).
 
 ## Processing coding:
-For each code we tested there is one version in Java to execute on Processing PDE with the Java Mode. And one version with the Android Mode to build the application inside the smartwatch via USB or bluetooth.
-For installing the Android Mode for Processing check [here](https://github.com/processing/processing-android/wiki).
+For each code we tested, there's one version in Java to execute on Processing PDE with the Java Mode. And one version to use with the Android Mode that will build an android application inside the smartwatch via USB or bluetooth.
+For installing the Android Mode for Processing check [here](https://github.com/processing/processing-android/wiki). It's important to have installed the Android SDK.
 
-## Android Wear Debug inside the Terminal:
+# Android Wear Debug inside the Terminal:
 - Check inside the terminal which Android device is/are connected:
+```
 adb devices
+```
 
-- Connect Android Wear via bluetooth:
+## Connect the Android Wear via bluetooth:
+Use an Android mobile connected via an USB cable to the computer, run the [Android Wear - Smartwatch](https://play.google.com/store/apps/details?id=com.google.android.wearable.app) app, the watch and the mobile need to be connected using the app. Then run on the Terminal these commands:
 ```
 adb forward tcp:4444 localabstract:/adb-hub
 adb connect 127.0.0.1:4444
@@ -26,13 +29,13 @@ If it doesn't work try:
 adb -connect localhost:4444
 ```
 
-- If the host and the target are connecte on the mobile:
+- If the host and the target are connected on the Android Wear mobile app:
 ```
 Host: connected
 Target: connected
 ```
 
-- Reboot the Android Wear on the terminal:
+- Reboot the Android Wear:
 ```
 adb -s 127.0.0.1:4444 reboot
 ```
@@ -42,33 +45,42 @@ If it doesn't work try:
 adb -s localhost:4444 reboot
 ```
 
-- First find the APKs location, find the last apk builded and use the APPLICATION-debug.apk (APPLICATION = name of the app):
+- Install APK (this is an exemple):
+```
+adb -e install -r /private/var/folders/0q/mnmr2rb14273d107szplrrw80000gn/T/android6712214751317668388sketch/bin/APPLICATION-debug.apk
+```
+
+- For find the APKs location, find the builded apk and use the APPLICATION-debug.apk (APPLICATION = name of the app):
 ```
 cd ../
 cd var
 open .
 ```
-This is an exemple
+This is an exemple where to locate the builded apk
 ```
 /private/var/folders/0q/mnmr2rb14273d107szplrrw80000gn/T
 ```
 
-- Install APK over bluetooth (this is an exemple):
-```
-adb -e install -r /private/var/folders/0q/mnmr2rb14273d107szplrrw80000gn/T/android6712214751317668388sketch/bin/Romain-debug-unaligned.apk
-```
-
-- Unistall APK over bluetooth:
+- Unistall APK:
 ```
 adb -s 127.0.0.1:4444 uninstall
 ```
 
-- Unistall APK  over USB cable (application = name of the app on minuscule):
+
+## Connect the Android Wear via USB cable:
+
+- Unistall APK (application = name of the app on minuscule):
 ```
 adb -s uninstall processing.test.application
 ```
 
-- Install APK over USB cable (APPLICATION = name of the app):
+- Install APK (APPLICATION = name of the app):
 ```
 adb -e install -r APPLICATION.apk
 ```
+
+- Reboot the watch:
+```
+adb -s reboot
+```
+
