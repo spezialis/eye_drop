@@ -11,6 +11,11 @@ For each code we tested, there's one version in Java to execute on Processing PD
 For installing the Android Mode for Processing check [here](https://github.com/processing/processing-android/wiki). It's important to have installed the Android SDK.
 
 # Android Wear Debug inside the Terminal:
+- adb commands:
+```
+adb help
+```
+
 - Check inside the terminal which Android device is/are connected:
 ```
 adb devices
@@ -47,7 +52,7 @@ adb -s localhost:4444 reboot
 
 - Install APK (this is an exemple):
 ```
-adb -e install -r /private/var/folders/0q/mnmr2rb14273d107szplrrw80000gn/T/android6712214751317668388sketch/bin/APPLICATION-debug.apk
+adb -s install -r /private/var/folders/0q/mnmr2rb14273d107szplrrw80000gn/T/android6712214751317668388sketch/bin/APPLICATION-debug.apk
 ```
 
 - For find the APKs location, find the builded apk and use the APPLICATION-debug.apk (APPLICATION = name of the app):
@@ -71,16 +76,16 @@ adb -s 127.0.0.1:4444 uninstall
 
 - Unistall APK (application = name of the app on minuscule):
 ```
-adb -s uninstall processing.test.application
+adb -d uninstall processing.test.application
 ```
 
 - Install APK (APPLICATION = name of the app):
 ```
-adb -e install -r APPLICATION.apk
+adb -d install -r APPLICATION.apk
 ```
 
 - Reboot the watch:
 ```
-adb -s reboot
+adb -d reboot
 ```
 
