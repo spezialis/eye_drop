@@ -1,6 +1,4 @@
 # Drop Eye
-
-## Concept:
 Eye Drop is a set of bottles containing a digital liquid made of shiny particles, that you can shake and play with, the fluidity make it feel real. Eye Drop uses a Huawei smartwatch and a lens from Google Cardboard to give an impression of immersive screen. 
 We took existing codes from Daniel Erickson and Daniel Schiffman that we modified.
 
