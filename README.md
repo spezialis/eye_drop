@@ -12,7 +12,7 @@ A video demonstration can be viewed [here](https://www.youtube.com/watch?v=5UhNI
 For each code we tested, there's one version in Java to execute on Processing PDE with the Java Mode. And one version to use with the Android Mode that will build an android application inside the smartwatch via USB or bluetooth.
 For installing the Android Mode for Processing check [here](https://github.com/processing/processing-android/wiki). It's important to have installed the Android SDK.
 
-# Android Wear Debug inside the Terminal:
+## Android Wear Debug inside the Terminal:
 - adb commands:
 ```
 adb help
@@ -23,7 +23,7 @@ adb help
 adb devices
 ```
 
-## Connect the Android Wear via bluetooth:
+### Connect the Android Wear via bluetooth:
 Use an Android mobile connected via an USB cable to the computer, run the [Android Wear - Smartwatch](https://play.google.com/store/apps/details?id=com.google.android.wearable.app) app, the watch and the mobile need to be connected using the app. Then run on the Terminal these commands:
 ```
 adb forward tcp:4444 localabstract:/adb-hub
@@ -74,7 +74,7 @@ adb -s 127.0.0.1:4444 uninstall
 ```
 
 
-## Connect the Android Wear via USB cable:
+### Connect the Android Wear via USB cable:
 
 - Unistall APK (application = name of the app on minuscule):
 ```
