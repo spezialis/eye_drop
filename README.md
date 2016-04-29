@@ -91,7 +91,7 @@ adb -d reboot
 ```
 
 ### Credits
-Students in media & interaction design
+Students in media & interaction design <br>
 Charlotte Broccard
 Stella Speziali
 
