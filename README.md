@@ -91,11 +91,11 @@ adb -d reboot
 ```
 
 ### Credits
-Students in media & interaction design <br>
+####Students in media & interaction design
 Charlotte Broccard
 Stella Speziali
 
-Assistant
+####Assistant
 Romain Cazier
 
 ECAL - Ecole cantonale d'art de Lausanne
