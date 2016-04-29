@@ -90,3 +90,14 @@ adb -d install -r APPLICATION.apk
 adb -d reboot
 ```
 
+### Credits
+Students in media & interaction design
+Charlotte Broccard
+Stella Speziali
+
+Assistant
+Romain Cazier
+
+ECAL - Ecole cantonale d'art de Lausanne
+
+
