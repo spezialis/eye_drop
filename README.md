@@ -12,6 +12,7 @@ A video demonstration can be viewed [here](https://www.youtube.com/watch?v=5UhNI
 ## Processing coding:
 For each code we tested, there's one version in Java to execute on Processing PDE with the Java Mode. And one version to use with the Android Mode that will build an android application inside the smartwatch via USB or bluetooth.
 For installing the Android Mode for Processing check [here](https://github.com/processing/processing-android/wiki). It's important to have installed the Android SDK.
+We also use the [Ketai Library](http://ketai.org/) for Processing which helped us to develop and build all application for android.
 
 ## Android Wear Debug inside the Terminal:
 - adb commands:
