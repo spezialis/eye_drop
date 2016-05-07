@@ -16,9 +16,9 @@ We also use the [Ketai Library](http://ketai.org/) for Processing which helped u
 
 Some screencast of some applications:
 ![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Fluid.gif)
-![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Gifs/Particle.gif)
-![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Gifs/Rotate.gif)
-![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Gifs/Snap.gif)
+![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Particle.gif)
+![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Rotate.gif)
+![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Snap.gif)
 
 ## Android Wear Debug inside the Terminal:
 - adb commands:
