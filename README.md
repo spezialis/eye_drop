@@ -15,10 +15,10 @@ For installing the Android Mode for Processing check [here](https://github.com/p
 We also use the [Ketai Library](http://ketai.org/) for Processing which helped us to develop and build all application for android.
 
 Some screencast of the application:
-![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Gifs/Fluid.gif)
-![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Gifs/Particle.gif)
-![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Gifs/Rotate.gif)
-![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Gifs/Snap.gif)
+![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Fluid.gif)
+![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Gifs/Gifs/Particle.gif)
+![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Gifs/Gifs/Rotate.gif)
+![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Gifs/Gifs/Snap.gif)
 
 ## Android Wear Debug inside the Terminal:
 - adb commands:
