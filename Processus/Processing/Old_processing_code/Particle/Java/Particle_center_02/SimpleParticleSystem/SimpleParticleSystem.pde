@@ -10,7 +10,7 @@
 
 ParticleSystem ps;
 
-int diametreZone = 400;
+int diametreZone = 500;
 float force;
 int delayTime;
 //boolean diminuer;
@@ -20,12 +20,13 @@ int delayTime;
 float seed = 0;
 
 void setup() {
-  size(400, 400);
+  size(500, 500);
   //pixelDensity(2);
   ps = new ParticleSystem(new PVector(width/2, 50));
 }
 
 void draw() {
+  noCursor();
   background(0);
   pushMatrix();
   translate(width/2, height/2);
@@ -38,9 +39,9 @@ void draw() {
   //}
 
   //if (noise(seed) > 0.5) {
-   if(frameCount % 10 == 0) {
+   //if(frameCount % 10 == 0) {
     ps.addParticle(diametreZone/2, force);
-   }
+   //}
   //}
 
   // ps.addParticle(diametreZone/2,force);
@@ -50,7 +51,7 @@ void draw() {
   noFill();
   stroke(255);
   strokeWeight(2);
-  ellipse(width/2, height/2, diametreZone, diametreZone);
+  //ellipse(width/2, height/2, diametreZone, diametreZone);
 }
 
 void ajout() {

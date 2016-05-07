@@ -14,8 +14,8 @@ void setup() {
 }
 
 void draw() {
+  noCursor();
   background(0);
-
 
   //fill(0);
   //ellipse(circle.x, circle.y, radiusC, radiusC);
@@ -27,7 +27,6 @@ void draw() {
 }
 
 class Particle {
-
   PVector location;
   PVector velocity = new PVector();
 

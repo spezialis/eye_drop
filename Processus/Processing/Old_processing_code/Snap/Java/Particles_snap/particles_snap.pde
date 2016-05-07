@@ -23,14 +23,15 @@ void setup() {
 }
 
 void draw() {
-   background(0);
-   //fill(255);
-   stroke(255);
-   //noStroke();
-  for (Dot d : dots){
+  noCursor();
+  background(0);
+  //fill(255);
+  stroke(255);
+  //noStroke();
+  for (Dot d : dots) {
     d.bouge();
     d.affiche();
-    
+
     float distance = dist(d.pos.x, d.pos.y, mouseX, mouseY);
     if (distance < 50) {
       d.dpos.x = d.pos.x + (d.pos.x - mouseX); 
@@ -38,7 +39,7 @@ void draw() {
     } else {
       d.dpos = d.gpos.get();
     }
-  } 
+  }
 }
 
 class Dot {
@@ -49,14 +50,14 @@ class Dot {
     this.px = px;
     this.py = py;
     this.gpos = gpos.get();
-   // pos = new PVector(random(width), random(height));
-     pos = new PVector(width/2, height/2);
+    // pos = new PVector(random(width), random(height));
+    pos = new PVector(width/2, height/2);
     dpos = gpos.get();
   }
 
   void bouge() {
-   pos.x += (dpos.x - pos.x) * 0.05;
-   pos.y += (dpos.y - pos.y) * 0.05;
+    pos.x += (dpos.x - pos.x) * 0.05;
+    pos.y += (dpos.y - pos.y) * 0.05;
   }
 
   void affiche() {
