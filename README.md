@@ -14,11 +14,11 @@ For each code we tested, there's one version in Java to execute on Processing PD
 For installing the Android Mode for Processing check [here](https://github.com/processing/processing-android/wiki). It's important to have installed the Android SDK.
 We also use the [Ketai Library](http://ketai.org/) for Processing which helped us to develop and build all application for android.
 
-Some screencast of the application:
+Some screencast of some applications:
 ![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Fluid.gif)
-![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Gifs/Gifs/Particle.gif)
-![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Gifs/Gifs/Rotate.gif)
-![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Gifs/Gifs/Snap.gif)
+![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Gifs/Particle.gif)
+![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Gifs/Rotate.gif)
+![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Gifs/Snap.gif)
 
 ## Android Wear Debug inside the Terminal:
 - adb commands:
