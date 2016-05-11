@@ -101,12 +101,12 @@ adb -d reboot
 
 ### Credits
 ####Students in media & interaction design
-Charlotte Broccard &
-Stella Speziali
+[Charlotte Broccard](http://charlottebroccard.ch/) &
+[Stella Speziali](http://stellaspeziali.ch/)
 
 ####Assistant
-Romain Cazier
+[Romain Cazier](http://romaincazier.com/)
 
-ECAL - Ecole cantonale d'art de Lausanne
+[ECAL](http://www.ecal.ch/fr/100/homepage) - Ecole cantonale d'art de Lausanne
 
 
