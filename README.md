@@ -65,7 +65,7 @@ adb -s localhost:4444 reboot
 adb -s install -r /private/var/folders/0q/mnmr2rb14273d107szplrrw80000gn/T/android6712214751317668388sketch/bin/APPLICATION-debug.apk
 ```
 
-- For find the APKs location, find the builded apk and use the APPLICATION-debug.apk (APPLICATION = name of the app):
+- To find the APKs location, find the builded apk and use the APPLICATION-debug.apk (APPLICATION = name of the app):
 ```
 cd ../
 cd var
@@ -78,13 +78,13 @@ This is an exemple where to locate the builded apk
 
 - Unistall APK:
 ```
-adb -s 127.0.0.1:4444 uninstall
+adb -s 127.0.0.1:4444 uninstall processing.test.application
 ```
 
 
 ### Connect the Android Wear via USB cable:
 
-- Unistall APK (application = name of the app on minuscule):
+- Unistall APK (application = name of the app on lowercase):
 ```
 adb -d uninstall processing.test.application
 ```
