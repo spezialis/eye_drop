@@ -1,6 +1,6 @@
 # Drop Eye
 ![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Eye_Drop.jpg)
-Eye Drop is a set of bottles containing a digital liquid made of shiny particles, that you can shake and play with, the fluidity make it feel real. Eye Drop uses a Huawei smartwatch and a lens from Google Cardboard to give an impression of immersive screen. 
+Eye Drop is a set of bottles containing a digital liquid made of shiny particles, that you can shake and play with, the fluidity make it feel real. Eye Drop uses a Huawei smartwatch and a lens from Google Cardboard to give an impression of immersive screen.
 We took existing codes from Daniel Erickson and Daniel Schiffman that we modified.
 
 ![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Bottle_inside.gif)
@@ -99,14 +99,11 @@ adb -d install -r APPLICATION.apk
 adb -d reboot
 ```
 
-### Credits
-####Students in media & interaction design
-[Charlotte Broccard](http://charlottebroccard.ch/) &
-[Stella Speziali](http://stellaspeziali.ch/)
-
-####Assistant
-[Romain Cazier](http://romaincazier.com/)
-
-[ECAL](http://www.ecal.ch/fr/100/homepage) - Ecole cantonale d'art de Lausanne
-
-
+## Credits
+By [Charlotte Broccard](http://charlottebroccard.ch/), [Stella Speziali](http://stellaspeziali.ch/)
+Eye Drop
+Lead by Alain Bellet, Cyril Diagne, Vincent Jacquier
+Assisted by [Romain Cazier](http://romaincazier.com/), Tibor Udvari
+ECAL/Bachelor Media & Interaction Design
+University of Art & Design, Lausanne 2017
+[www.ecal.ch](www.ecal.ch)
