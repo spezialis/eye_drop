@@ -100,10 +100,10 @@ adb -d reboot
 ```
 
 ## Credits
-By [Charlotte Broccard](http://charlottebroccard.ch/), [Stella Speziali](http://stellaspeziali.ch/)
-Eye Drop
-Lead by Alain Bellet, Cyril Diagne, Vincent Jacquier
-Assisted by [Romain Cazier](http://romaincazier.com/), Tibor Udvari
-ECAL/Bachelor Media & Interaction Design
-University of Art & Design, Lausanne 2017
+By [Charlotte Broccard](http://charlottebroccard.ch/), [Stella Speziali](http://stellaspeziali.ch/)<br>
+Eye Drop<br>
+Lead by Alain Bellet, Cyril Diagne, Vincent Jacquier<br>
+Assisted by [Romain Cazier](http://romaincazier.com/), Tibor Udvari<br>
+ECAL/Bachelor Media & Interaction Design<br>
+University of Art & Design, Lausanne 2017<br>
 [www.ecal.ch](www.ecal.ch)
