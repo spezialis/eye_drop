@@ -1,4 +1,4 @@
-# Eye Drop
+# Drop Eye
 ![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Eye_Drop.jpg)
 Eye Drop is a set of bottles containing a digital liquid made of shiny particles, that you can shake and play with, the fluidity make it feel real. Eye Drop uses a Huawei smartwatch and a lens from Google Cardboard to give an impression of immersive screen.
 We took existing codes from Daniel Erickson and Daniel Schiffman that we modified.
@@ -20,6 +20,11 @@ Some screencast of some applications:
 ![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Rotate.gif)
 ![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Snap.gif)
 
+## Find the path/location of an APKs (or drag and drop the file on the Terminal):
+```
+cd /path
+```
+
 ## Android Wear Debug inside the Terminal:
 - adb commands:
 ```
@@ -39,12 +44,11 @@ adb connect 127.0.0.1:4444
 ```
 
 If it doesn't work try:
-
 ```
 adb -connect localhost:4444
 ```
 
-- If the host and the target are connected on the Android Wear mobile app:
+- If the host and the target are connected on the Android Wear mobile app, you should see:
 ```
 Host: connected
 Target: connected
@@ -60,43 +64,50 @@ If it doesn't work try:
 adb -s localhost:4444 reboot
 ```
 
-- Install APK (this is an exemple):
+- Install APK:
 ```
-adb -s install -r /private/var/folders/0q/mnmr2rb14273d107szplrrw80000gn/T/android6712214751317668388sketch/bin/APPLICATION-debug.apk
-```
-
-- To find the APKs location, find the builded apk and use the APPLICATION-debug.apk (APPLICATION = name of the app):
-```
-cd ../
-cd var
-open .
-```
-This is an exemple where to locate the builded apk
-```
-/private/var/folders/0q/mnmr2rb14273d107szplrrw80000gn/T
+adb -s install -r [nameOfApplication].apk
 ```
 
 - Unistall APK:
 ```
-adb -s 127.0.0.1:4444 uninstall processing.test.application
+adb -s 127.0.0.1:4444 uninstall [packageName]
 ```
 
+- List all packages installed on the device:
+```
+adb -s 127.0.0.1:4444 shell pm list packages
+```
+
+- Lauch application directly on the device:
+```
+adb -s 127.0.0.1:4444 shell am start -n [packageName]/[.activityName]
+```
 
 ### Connect the Android Wear via USB cable:
+- Unistall APK:
+```
+adb -d uninstall [packageName]
+```
 
-- Unistall APK (application = name of the app on lowercase):
+- Install APK:
 ```
-adb -d uninstall processing.test.application
-```
-
-- Install APK (APPLICATION = name of the app):
-```
-adb -d install -r APPLICATION.apk
+adb -d install -r [nameOfApplication].apk
 ```
 
 - Reboot the watch:
 ```
 adb -d reboot
+```
+
+- List all packages installed on the device:
+```
+adb shell pm list packages
+```
+
+- Lauch application directly on the device:
+```
+adb shell am start -n [packageName]/[.activityName]
 ```
 
 ## Credits
