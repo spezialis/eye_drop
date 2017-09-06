@@ -84,7 +84,6 @@ adb -s 127.0.0.1:4444 shell pm list packages
 adb -s 127.0.0.1:4444 shell am start -n [packageName]/[.activityName]
 ```
 
-<<<<<<< HEAD
 - To find the activityName data check the AndroidManifest.xml of the app you want to launch. Here a schematized structure with only the field we are interested in:
 ```html
 <manifest package="com.example.project" . . . >
@@ -97,8 +96,6 @@ adb -s 127.0.0.1:4444 shell am start -n [packageName]/[.activityName]
 </manifest>
 ```
 
-=======
->>>>>>> 25b7bb54b32cd2d7682beb5c44074b6c550420ce
 ### Connect the Android Wear via USB cable:
 - Unistall APK:
 ```
