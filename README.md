@@ -32,7 +32,7 @@ adb devices
 ```
 
 ### Connect the Android Wear over Bluetooth:
-Use an Android mobile connected with an USB cable to the computer, run the [Android Wear - Smartwatch](https://play.google.com/store/apps/details?id=com.google.android.wearable.app) app, the watch and the mobile need to be connected using the same app. Then run on the Terminal these commands:
+Use an Android mobile connected with an USB cable to the computer, run the [Android Wear - Smartwatch](https://play.google.com/store/apps/details?id=com.google.android.wearable.app) app, the watch and the mobile need to be connected using the same app. The developper mode need to be activated on the smartwatch inside the settings. Don't forget to activate the debug over bluetooth. Then run on the Terminal these commands:
 ```
 adb forward tcp:4444 localabstract:/adb-hub
 adb connect 127.0.0.1:4444
