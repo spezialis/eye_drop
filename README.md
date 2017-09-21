@@ -20,11 +20,6 @@ Some screencast of some applications:
 ![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Rotate.gif)
 ![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Snap.gif)
 
-## Find the path/location of an APKs (or drag and drop the file on the Terminal):
-```
-cd /path
-```
-
 ## Android Wear Debug inside the Terminal:
 - adb commands:
 ```
@@ -36,8 +31,8 @@ adb help
 adb devices
 ```
 
-### Connect the Android Wear via bluetooth:
-Use an Android mobile connected via an USB cable to the computer, run the [Android Wear - Smartwatch](https://play.google.com/store/apps/details?id=com.google.android.wearable.app) app, the watch and the mobile need to be connected using the app. Then run on the Terminal these commands:
+### Connect the Android Wear over Bluetooth:
+Use an Android mobile connected with an USB cable to the computer, run the [Android Wear - Smartwatch](https://play.google.com/store/apps/details?id=com.google.android.wearable.app) app, the watch and the mobile need to be connected using the same app. Then run on the Terminal these commands:
 ```
 adb forward tcp:4444 localabstract:/adb-hub
 adb connect 127.0.0.1:4444
@@ -64,7 +59,7 @@ If it doesn't work try:
 adb -s localhost:4444 reboot
 ```
 
-- Install APK:
+- Install APK (after finding the path of the APK):
 ```
 adb -s install -r [nameOfApplication].apk
 ```
@@ -96,7 +91,7 @@ adb -s 127.0.0.1:4444 shell am start -n [packageName]/[.activityName]
 </manifest>
 ```
 
-### Connect the Android Wear via USB cable:
+### Connect the Android Wear with USB cable:
 - Unistall APK:
 ```
 adb -d uninstall [packageName]
