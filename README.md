@@ -1,9 +1,9 @@
 # Drop Eye
-![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Eye_Drop.jpg)
+![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/readme_data/Eye_Drop.jpg)
 Eye Drop is a set of bottles containing a digital liquid made of shiny particles, that you can shake and play with, the fluidity make it feel real. Eye Drop uses a Huawei smartwatch and a lens from Google Cardboard to give an impression of immersive screen.
 We took existing codes from Daniel Erickson and Daniel Schiffman that we modified.
 
-![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Bottle_inside.gif)
+![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/readme_data/Bottle_inside.gif)
 
 This projet took part of the Milano Design Week Fuorisalone on 2016 at the "When object dreams" exhibition made by [ECAL - Ecole Cantonale d'Art de Lausanne](http://www.ecal.ch/fr/100/homepage).
 
