@@ -5,11 +5,14 @@ We took existing codes from Daniel Erickson and Daniel Schiffman that we modifie
 
 ![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/readme_data/Bottle_inside.gif)
 
-This projet took part of the Milano Design Week Fuorisalone on 2016 at the "When object dreams" exhibition made by [ECAL - Ecole Cantonale d'Art de Lausanne](http://www.ecal.ch/fr/100/homepage).
-
 A video demonstration can be viewed [here](https://www.youtube.com/watch?v=5UhNIojhL8o).
 
-## Processing coding:
+## Exhibitions
+This projet took part of the Milano Design Week Fuorisalone on 2016 at the "When object dreams" exhibition made by [ECAL - Ecole Cantonale d'Art de Lausanne](http://www.ecal.ch/fr/100/homepage).
+
+It also took part during the [Fantoche Festival Baden](http://fantoche.ch/en/am-stanzerei-0) in 2017 at the "Animation Multimédia" exhibition at Stanzerei.
+
+## Processing coding
 For each code we tested, there's one version in Java to execute on Processing PDE with the Java Mode. And one version to use with the Android Mode that will build an android application inside the smartwatch via USB or bluetooth.
 For installing the Android Mode for Processing check [here](https://github.com/processing/processing-android/wiki). It's important to have installed the Android SDK.
 We also use the [Ketai Library](http://ketai.org/) for Processing which helped us to develop and build all application for android.
