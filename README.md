@@ -7,11 +7,6 @@ We took existing codes from Daniel Erickson and Daniel Schiffman that we modifie
 
 A video demonstration can be viewed [here](https://www.youtube.com/watch?v=5UhNIojhL8o).
 
-## Exhibitions
-This projet took part of the Milano Design Week Fuorisalone on 2016 at the "When object dreams" exhibition made by [ECAL - Ecole Cantonale d'Art de Lausanne](http://www.ecal.ch/fr/100/homepage).
-
-It also took part during the [Fantoche Festival Baden](http://fantoche.ch/en/am-stanzerei-0) in 2017 at the "Animation Multimédia" exhibition at Stanzerei.
-
 ## Processing coding
 For each code we tested, there's one version in Java to execute on Processing PDE with the Java Mode. And one version to use with the Android Mode that will build an android application inside the smartwatch via USB or bluetooth.
 For installing the Android Mode for Processing check [here](https://github.com/processing/processing-android/wiki). It's important to have installed the Android SDK.
@@ -22,6 +17,14 @@ Some screencast of some applications:
 ![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Particle.gif)
 ![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Rotate.gif)
 ![alt tag](https://raw.githubusercontent.com/spezialis/Drop_Eye/master/Processus/Gifs/Snap.gif)
+
+
+## Exhibitions
+This projet took part during the [Fantoche Festival Baden](http://fantoche.ch/en/am-stanzerei-0) in 2017 at the "Animation Multimédia" exhibition at Stanzerei.
+
+It was also displayed at the Mobile Innovation Day in Brussel on November 2016.
+
+It was first exhibited during the Milano Design Week Fuorisalone on 2016 at "When object dreams" exhibition made by [ECAL - Ecole Cantonale d'Art de Lausanne](http://www.ecal.ch/fr/100/homepage).
 
 ## Credits
 By [Charlotte Broccard](http://charlottebroccard.ch/), [Stella Speziali](http://stellaspeziali.ch/)<br>
